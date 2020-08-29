@@ -2,12 +2,14 @@ import Foundation
 
 typealias FUNC = (Any, Any) -> Any
 
-func TRUE(x: Any, y: Any) -> Any {
-    return x
+var TRUE: FUNC = {
+    x,y in
+    x
 }
 
-func FALSE(x: Any, y: Any) -> Any {
-    return y
+var FALSE: FUNC = {
+    x,y in
+    y
 }
 
 func NOT(x: Any) -> Any {
