@@ -1,0 +1,10 @@
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+
+## User settings
+xcuserdata/
+
+
+**/.DS_Store
